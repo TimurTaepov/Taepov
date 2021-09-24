@@ -4,13 +4,11 @@ version = open('VERSION').read().strip()
 license = open('LICENSE').read().strip()
 
 setup(
-    name = 'python-package-boilerplate',
+    name = 'cmf-options-pricer',
     version = version,
     license = license,
-    author = 'Your Name Here',
-    author_email = 'you@somewhere.com',
-    url = 'http://www.somewhere.com',
-    description = 'Lorem ipsum dolor fiat lux',
+    author = 'CMF Team',
+    description = 'Options Pricer',
     long_description = open('README.md').read().strip(),
     packages = find_packages(),
     install_requires=[
